@@ -1,4 +1,8 @@
 # Autonomous Line-Following Car
+![alt text](Images/right.jpeg "Right Side")
+![alt text](Images/front.jpeg "Front Side")
+
+
 
 An intelligent line-following vehicle capable of obstacle detection and autonomous navigation with dynamic decision-making capabilities.
 
@@ -105,18 +109,6 @@ int motorSpeed = 65;           // Base speed for forward movement
 float backwardsScale = 1.0;    // Scaling factor for backward turns
 int angleSnapSpeed = 75;       // Speed for 90-degree turns
 int obstacleThreshold = 15;    // Obstacle detection distance (cm)
-```
-
-## 📁 Code Structure
-
-```
-├── main.ino                    # Main Arduino sketch
-├── README.md                   # This file
-├── docs/
-│   ├── SysML_Diagrams/        # System modeling diagrams
-│   ├── 3D_Models/             # CAD files for printed parts
-│   └── Prototyping_Report.pdf # Detailed technical report
-└── images/                    # Project images and demonstrations
 ```
 
 ### Key Functions
